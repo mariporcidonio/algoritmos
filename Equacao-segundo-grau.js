@@ -1,6 +1,6 @@
-/*ax� + bx + c = 0
+/*ax² + bx + c = 0
 a = 2, b = 8, c = - 24
-Delta = b� - 4ac
+Delta = b² - 4ac
 */
 let a = prompt('Digite o valor de A:');
 let b = prompt('Digite o valor de B:');
@@ -11,7 +11,7 @@ let delta = (b * b) - 4 * a * c;
 
 console.log('Delta = ', delta);
 if (delta < 0) {
-    console.log('Para Delta negativo, n�o existem ra�zes reais.');
+    console.log('Para Delta negativo, não existem raízes reais.');
 } else {
     x1 = (-b + Math.sqrt(delta)) / 2 * a;
     x2 = (-b - Math.sqrt(delta)) / 2 * a;
