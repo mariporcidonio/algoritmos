@@ -1,2 +1,2 @@
 # Algoritmos
-Algoritmos simples para praticar Javascript.
+Algoritmos simples para praticar Javascript e Portugol.
